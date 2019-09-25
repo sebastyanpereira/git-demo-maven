@@ -13,4 +13,10 @@ class HelperServiceTest {
         String expected = "VP";
         assertEquals(expected, actual);
     }
+    {
+        HelperService service = new HelperService();
+        String actual = service.initials("Vasiliy");
+        String expected = "V";
+        assertEquals(expected, actual);
+    }
 }
